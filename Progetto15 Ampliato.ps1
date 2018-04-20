@@ -7,7 +7,7 @@ switch($args[0])
 	"L" {Get-ChildItem}
 	"C" {Get-Location}
 	"W" {Get-NetIpConfiguration | Format_List IPv4Address}
-	"X" {GetChildItem -path C:\Users}
+	"X" {Get-ChildItem -path C:\Users}
 	"Y" {}
 	# Non sono riuscito a trovare un comando che mi permettesse di visualizzare gli utenti attualmente connessi
 	"Z" {Test-Connection www.google.com}
