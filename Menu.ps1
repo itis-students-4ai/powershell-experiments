@@ -1,4 +1,3 @@
-#
 #programma Francesco Migliaccio Tessitore	
 switch($args[0])
 {
@@ -6,9 +5,9 @@ switch($args[0])
 	"U" {$env:username}
 	"L" {Get-ChildItem}
 	"C" {Get-Location}
-	"W" {Get-NetIpConfiguration | Format_List IPv4Address}
-	"X" {dir -path C:\Users}
-	"Y" { Select-Object UserName}
+	"W" {Get-NetIpConfiguration | Format-List IPv4Address}
+	"X" {dir C:\Users }
+	"Y" {}
 	"Z" {Test-Connection 8.8.8.8}
 
 	default {Write-Host "D = Data di Oggi"
