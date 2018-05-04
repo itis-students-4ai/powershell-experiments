@@ -1,4 +1,4 @@
-#Menù Kadiu
+#Menï¿½ Kadiu
 switch($args[0])
 {
 	"D" {Get-Date}
