@@ -1,0 +1,1 @@
+get-command | format-table -property name,definition
