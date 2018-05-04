@@ -1,0 +1,1 @@
+Foreach-Object { Start-Process -FilePath "*at" –Verb Print}
