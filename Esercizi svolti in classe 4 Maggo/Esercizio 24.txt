@@ -1,0 +1,2 @@
+Per risolvere questo esercizio ho utilizzato la seguente riga:
+get-command|format-table -property Name, Definition | out-file File 

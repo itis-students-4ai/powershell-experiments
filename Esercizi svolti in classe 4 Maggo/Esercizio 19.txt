@@ -1,0 +1,3 @@
+Per risolvere questo esercizio ho utilizzato la seguente riga:
+
+get-childitem 'Z:\TIPSIT\powershell-experiments\Esercizi svolti in classe 4 Maggo'\*at.*|out-printer
