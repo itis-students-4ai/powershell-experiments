@@ -1,0 +1,4 @@
+Comando esercizio 18
+
+cd Desktop
+get-help about-escape-character | out-file Escape.txt
