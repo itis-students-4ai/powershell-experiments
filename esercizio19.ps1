@@ -1,0 +1,1 @@
+get-childitem C:\Users\albi.sabahu\Dekstop\*at.* | out printer
