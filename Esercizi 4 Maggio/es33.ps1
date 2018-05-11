@@ -2,16 +2,14 @@ $N = $args[1]
 
 switch ($args[0])
 {
-	"S" {$N ++
-	     write-host "$N"}
-	"P" {$N --
-	     write-host "$N"}
-	"D" {$N = $N * 2
-	     write-host "$N"}
-	"M" {$N = $N /2
-	     write-host "$N"}
+	"S" {$N ++ }
+	"P" {$N -- }
+	"D" {$N = $N * 2 }
+	"M" {$N = $N /2 }
 	default {Write-host "S = Successivo"
 		 Write-host "P = Precedente"
 		 Write-host "D = Doppio"
-		 Write-host "M = Met‡"}
+		 Write-host "M = Met√†"}
 }
+
+write-host "$N"
