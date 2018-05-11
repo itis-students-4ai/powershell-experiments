@@ -1,0 +1,1 @@
+get-command | format-table -property Name, Definition | Out-File soluzione24.txt
