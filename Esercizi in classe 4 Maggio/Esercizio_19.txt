@@ -1,0 +1,2 @@
+Per risolvere questo esercizio il comando da powershell è il seguente:
+ get-childitem Z:\TPSIT\PowerShell\Esercizi\*at.*|out-printer
