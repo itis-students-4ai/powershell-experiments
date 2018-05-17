@@ -1,0 +1,1 @@
+get-alias | format-table -property Name, Definition | out-file C:\Users\alessandro.gori\Desktop\Esercizio24
